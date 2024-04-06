@@ -1023,9 +1023,8 @@ h5{
         display: flex;
         flex-direction: column;
       }
-      .section-6{
+      .section-6 .section-6-cards{
         display: flex;
-        flex-direction: column;
     }
 
     
