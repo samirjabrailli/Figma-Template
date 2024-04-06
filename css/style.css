@@ -788,7 +788,7 @@ h5{
 /*
 ^ MOBILE RESPONSIVE START
 /* Header start */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 320px){
     .header {
         width: 100%;
         display: flex;
@@ -1107,7 +1107,7 @@ h5{
     /*
     ^ SECTION 7 START
     */
-    
+
     .sc-7-container{
       display: flex;
       flex-direction: column;
