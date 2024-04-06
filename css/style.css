@@ -1,0 +1,1202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black: #303031;
+    --white: #ffff;
+    --grey: #66645E;
+    --green: #71A894;
+    --light-gold: #F3F0EA;
+}
+
+body{
+    background-color: #F9F9F9;
+    font-family: "Roboto";
+}
+
+/*
+? MENU START
+*/
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+   padding: 40px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 5px solid transparent;
+}
+
+header nav  .green-link {
+    color: var(--green);
+}
+
+nav i{
+    opacity: 0;
+}
+
+/*
+? MENU END
+*/
+
+
+/*
+! SECtION 1 START
+*/
+
+.section-1 {
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 187px;
+  }
+  
+  .section-1-sol {
+    width: 45%;
+    margin-top: 158px;
+  }
+  
+  .section-1-sol h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 24px;
+  }
+  
+  .section-1-sol p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    margin-bottom: 39px;
+    line-height: 32px;
+  }
+  
+  .section-1-sol button {
+    width: 220px;
+    height: 64px;
+    background-color: #71a894;
+    border-radius: 8px;
+    padding: 20px 24px;
+    border: none;
+    font-family: inherit;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .section-1-sol button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .section-1 .section-1-img {
+    margin: 48px 0 187px 0;
+  }
+  
+
+
+
+/*
+! SECTION 1 END
+*/
+
+
+/*
+& SECTION 2 START
+*/
+
+.section-2 {
+    padding: 0 56px;
+}
+.section-2 h2{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, "seans-serif";
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--black);
+}
+
+.section-2 p{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+   font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+ text-align: center;
+}
+
+.section-2 .cards{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 50px;
+    gap: 20px;
+
+}
+.section-2 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+    width: 32%;
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+.section-2 .card img{
+    width: 104px;
+    height: 88px;
+}
+
+.section-2 h5 {
+    margin: 24px 0 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.section-2 .cards p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*
+& SECTION 2 END
+*/
+
+
+/*
+^ SECTION 3 START 
+*/
+.section-3{
+    padding: 0 118px 0 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 131px;
+}
+.section-3 .members-1{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.section-3 .members-1 img{
+    
+    width: 80px;
+    /* height: 80px;
+    border-radius: 100px;
+    margin-top: 50px; */
+}
+
+.section-3 .members-1  h3{
+    font-weight: 800px;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 24px 0;
+    color: var(--black);
+}
+
+.section-3 .members-1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -2%;
+}
+
+.section-3 .memberrs-2{
+    width: 434px;
+    border-radius: 16px;
+    border: 4px solid black;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.memberrs-2 h4{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -2%;
+    margin-bottom: 32px;
+  
+
+}
+
+.memberrs-2 .members-images{
+    
+    display: flex;
+    gap: 16px;
+}
+
+.members-images .member-title{
+    margin-top: 8px;
+}
+
+.member-title h5{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: -2%;
+    margin-bottom: 4px;
+}
+
+.member-title span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -2%;
+    color: #66645e;
+
+}
+/*
+^ SECTION 3 END 
+*/
+
+
+/*
+* SECTION 4 START
+*/
+
+.user-general{
+    padding: 0 54px 0 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.users-investors{
+    width: 35%;
+    border: 4px solid var(--black);
+    border-radius: 16px;
+    padding: 32px 40px;
+}
+
+.users-investors .users-investor{
+    display: flex;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+
+.users-investor .user-title h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -2%;
+    margin-top: 4px;
+}
+
+.users-investor .user-title  span{
+    font-weight: 100;
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: var(--grey);
+}
+
+.section-4 .users-investors p{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -2%;
+    margin-bottom: 48px;
+}
+
+.section-4 .users-price{
+    display: flex;
+    gap: 100px;
+}
+
+.users-price .commit,  h5{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: var(--grey);
+    margin-bottom: 12px;
+}
+
+.users-price .commit,  span{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    color: var(--grey);
+}
+
+.users-price .shares h5{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: var(--grey);
+    margin-bottom: 12px;
+}
+
+.users-price .shares span{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    color: var(--grey);
+}
+
+.section-4 .users-investors button{
+    width: 100%;
+    font-family: inherit;
+    padding: 12px 24px;
+    border: none;
+    background-color: var(--black);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -2%;
+    color: white;
+    border-radius: 16px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.users-investors-1 button{
+    background-color: var(--black);
+    color: var(--white);
+    width: 404px;
+    height: 56px;;
+    margin-left: 40px;
+    padding: 12px;
+    border-radius: 16px;
+    border: none;
+    margin: 44px;
+}
+
+.users-investors-2{
+    width: 45%;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.users-investors-2 img{
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.users-investors-2 h2{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 24px 0;
+}
+
+.users-investors-2 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -2%;
+}
+
+/*
+* SECTION 4 END
+*/
+
+
+/*
+~ SECTION 5 START
+*/
+
+.section-5{
+    padding: 0 56px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.commit-1{
+    width: 50%;
+    margin-top: 82px;
+}
+
+.commit-1 h2{
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 800;
+    margin: 24px 0;
+}
+
+.commit-1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -2%;
+}
+
+.commit-2{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.commit-2 .commit-21{
+    padding: 24px 70px;
+    border: 4px solid black;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.commit-21 .share{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.commit-21 .share h4{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -2%;
+    line-height: 24px;
+}
+
+.commit-21 .share button{
+    padding: 4px 8px;
+    background-color: #71a894;
+    border-radius: 40px;
+    width: 79px;
+    border: none;
+}
+
+.commit-21 p{
+    width: 75%;
+    font-weight: 500;
+    letter-spacing: -2%;
+    line-height: 24px;
+}
+
+.commit-22{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.commit-22 .application-1{
+    width: 60%;
+    border: 4px solid black;
+    border-radius: 16px;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #f3f0ea;
+}
+
+.commit-22 .application-1 img{
+    width: 40px;
+}
+
+.commit-22 .application-1 h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -2%;
+}
+
+.commit-22 .application-1  h4{
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: -2%;
+    margin: 8px 16px;
+}
+
+.commit-22 .application-1 .application-title{
+    display: flex;
+}
+
+
+.commit-22 .application-2{
+    width: 40%;
+    border: 4px solid #71a894;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.commit-22 .application-2 .alex-title{
+    text-align: center;
+}
+
+.commit-22 .application-2 .alex-title img{
+    width: 72px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.alex-title h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -2%;
+    margin-bottom: 11px;
+
+}
+
+.alex-title h5{
+    line-height: 24px;
+    letter-spacing: -2%;
+    margin-bottom: 16px;
+}
+
+
+
+
+.application-2 .button h4{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -2%;
+    margin-bottom: 16px;
+}
+
+.application-2 .button button{
+    width: 100%;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+}
+/*
+~ SECTION 5 END
+*/
+
+
+/*
+? SECTION 6 START
+*/
+.section-6{
+    display: flex;
+}
+
+.section-6 .card{
+    width: 427px;
+    height: 216px;
+    margin-left: 52px;
+    margin-top: 50px;
+    gap: 10px;
+    border: 4px solid var(--white);
+}
+
+.card h3{
+    font-family: Roboto, "seans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: center;
+   padding: 24px;
+
+}
+
+.card p{
+    font-family: Roboto, "seans-serif";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+
+}
+
+.card .card-price{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-price .aut .price-button{
+    background-color: var(--green);
+    border-radius: 40px;
+    width: 68px;
+    height: 32px;
+    padding: 4px, 8px, 4px, 8px;
+    margin-left: 10px;
+    border: none;
+    position: absolute;
+    top: 10px;
+}
+
+.card-price .apply h5{
+    font-family: Roboto, "seans-serif";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: -0.02em;
+    text-align: right;
+    margin: 4px 8px;
+    
+    
+}
+.section-button{
+    padding: 64px;
+    position: relative;
+}
+
+ .section-button .view{
+    background-color: var(--black);
+    color: var(--white);
+    width: 134px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    right: 50%;
+    
+}
+.grid img{
+width: 100%;
+}
+
+/*
+? SECTION 6 END
+*/
+
+
+/*
+^ SECTION 7 START
+*/
+
+
+.sc-7-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 44px;
+}
+
+.enterprise-text h2{
+    font-family: Roboto, "seans-serif";
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.enterprise-text p{
+    font-family: Roboto, "seans-serif";
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.enterprise-text .enterprise-button{
+    border: none;
+    background-color: var(--green);
+    color: var(--white);
+    width: 219px;
+    height: 64px;
+    font-family: Roboto, "seans-serif";
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.enterprise-img img{
+    width: 644px;
+    height: 361px;
+}
+/*
+^ SECTION 7 END
+*/
+
+
+/*
+* FOOTER START
+*/
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-enterprise h2{
+    font-family: Open Sans , "seans-serif";
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+}
+.footer-link{
+    display: flex;
+    
+}
+
+.footer-link 
+.document, 
+.github, 
+.twitter, 
+.contact-us {
+    padding: 40px;
+}
+
+.footer-link 
+.document, 
+.github, 
+.twitter, 
+.contact-us 
+h5{
+    text-transform: capitalize;
+    font-family: Roboto, "seans-serif";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-link .contact-us {
+    color: var(--green);
+} 
+
+.footer-link .contact-us .green-link{
+    color: var(--green);
+}
+/*
+* FOOTER END
+*/
+
+
+/*
+^ MOBILE RESPONSIVE START
+/* Header start */
+@media only screen and (max-width: 600px){
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: none;
+        padding: 25px 38px;
+        flex-direction: column;
+      }
+
+      header nav{
+        flex-direction: column;
+      }
+
+      header nav ul  {
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+       
+      }
+
+      
+      
+      .header .logo img {
+        flex-direction: column;
+      }
+
+      nav i{
+        opacity: 1;
+        font-size: 1.3em;
+    }
+      
+      
+      
+      /* Header end */
+      
+      /* Section one start */
+      .section-1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 24px;
+        margin-bottom: 94px;
+      }
+      
+      .section-1 .section-1-img {
+        order: -1;
+        margin: 0 0 28px;
+      }
+      
+      .section-1 .section-1-img img {
+        width: 100%;
+      }
+      
+      .section-1 .section-1-sol {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      .section-1 .section-1-sol h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 24px;
+      }
+      
+      .section-1 .section-1-sol p {
+        font-size: 18px;
+        margin-bottom: 47px;
+      }
+      
+      /* Section one end */
+      
+      /* Section two start */
+      
+      .section-2 {
+        padding: 0 34px;
+        margin-bottom: 80px;
+      }
+
+      .section-2 h2 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      
+      .section-2  p {
+        margin-bottom: 43px;
+        width: 100%;
+      }
+      
+      .section-2 .cards {
+        flex-direction: column;
+      }
+      
+      .section-2 .cards .card {
+        width: 100%;
+        padding: 32px 24px;
+      }
+      
+      /* Section two end */
+      
+      /* Section three start */
+      .section-3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 34px;
+        margin-bottom: 50px;
+      }
+      
+      .section-3 .members-1{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .section-3 .members-1 h2 {
+        font-size: 30px;
+        line-height: 42px;
+      }
+
+      .section-3 .members-1 p{
+       padding: 36px;
+      }
+      
+      .section-3 .members-2 {
+        width: 100%;
+        margin-top: 36px;
+      }
+
+      
+      
+      /* Section three end */
+      
+      /* Section four start */
+      .section-4 {
+        padding: 0 34px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .section-4 .user-general{
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .section-4 .users-investors {
+        width: 100%;
+        order: 1;
+      }
+      
+      .section-4 .users-investors-2 {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 28px 0;
+      }
+      
+      .section-4 .users-investors-2 h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 32px;
+        margin: 24px 0;
+      }
+      
+      /* Section four end */
+      
+      /* Section five end */
+      
+      .section-5 {
+        flex-direction: column;
+        margin-top: 60px;
+        padding: 0 34px;
+        margin-bottom: 50px;
+      }
+      
+      .section-5 .commit-1 {
+        margin-top: 0;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .section-5 .commit-1 h2 {
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: 800;
+        margin: 24px 0;
+      }
+      
+      .section-5 .commit-1 p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: -2%;
+      }
+      
+      .section-5 .commit-2 {
+        width: 100%;
+        margin-top: 30px;
+        gap: 30px;
+        flex-direction: column;
+      }
+
+      
+      
+      .section-5 .commit-2 .commit-21 {
+        padding: 10px;
+      }
+
+      
+      
+      .commit-2  .commit-22  {
+        flex-direction: column;
+      }
+
+
+      
+      .commit-2 .commit-21,
+      .commit-2 .commit-22 {
+        width: 100%;
+      }
+      /* Section five end */
+      
+      /* Section six start */
+      .section-6{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-6 .card{
+        width: 427px;
+        height: 216px;
+        margin-left: 52px;
+        margin-top: 50px;
+        gap: 10px;
+        border: 4px solid var(--white);
+    }
+    
+    .card h3{
+        font-family: Roboto, "seans-serif";
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        text-align: center;
+       padding: 24px;
+    
+    }
+    
+    .card p{
+        font-family: Roboto, "seans-serif";
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+    
+    }
+    
+    .card .card-price{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    .card-price .aut .price-button{
+        background-color: var(--green);
+        border-radius: 40px;
+        width: 68px;
+        height: 32px;
+        padding: 4px, 8px, 4px, 8px;
+        margin-left: 10px;
+        border: none;
+        position: absolute;
+        top: 10px;
+    }
+    
+    .card-price .apply h5{
+        font-family: Roboto, "seans-serif";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 100;
+        letter-spacing: -0.02em;
+        text-align: right;
+        margin: 4px 8px;
+        
+        
+    }
+    .section-button{
+        padding: 64px;
+        position: relative;
+    }
+    
+     .section-button .view{
+        background-color: var(--black);
+        color: var(--white);
+        width: 134px;
+        height: 64px;
+        border-radius: 8px;
+        border: none;
+        position: absolute;
+        right: 50%;
+        
+    }
+    .grid img{
+    width: 100%;
+    }
+    
+    /*
+    ? SECTION 6 END
+    */
+    
+    
+    /*
+    ^ SECTION 7 START
+    */
+    
+    .sc-7-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 44px;
+    }
+    
+    .enterprise-text h2{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        margin: 24px 0;
+    }
+
+    .enterprise-text{
+      flex-direction: column;
+    }
+    
+    .enterprise-text p{
+        font-family: Roboto, "seans-serif";
+        font-weight: 400;
+        font-size: 18px;
+        
+    }
+    
+    .enterprise-text .enterprise-button{
+        border: none;
+        background-color: var(--green);
+        color: var(--white);
+        width: 219px;
+        height: 64px;
+        font-family: Roboto, "seans-serif";
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .enterprise-img img{
+        width: 644px;
+        height: 361px;
+    }
+    /*
+    ^ SECTION 7 END
+    */
+    
+    
+    /*
+    * FOOTER START
+    */
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .footer-enterprise h2{
+        font-family: Open Sans , "seans-serif";
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    .footer-link{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .footer-link 
+    .document, 
+    .github, 
+    .twitter, 
+    .contact-us {
+        padding: 25px;
+    }
+    
+    .footer-link 
+    .document, 
+    .github, 
+    .twitter, 
+    .contact-us 
+    h5{
+        text-transform: capitalize;
+        font-family: Roboto, "seans-serif";
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .footer-link .contact-us .green-link {
+        color: var(--green);
+    } 
+      
+}
