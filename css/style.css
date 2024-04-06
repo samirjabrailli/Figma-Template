@@ -604,9 +604,10 @@ nav i{
 /*
 ? SECTION 6 START
 */
-.section-6{
+.section-6 .section-6-cards{
     display: flex;
 }
+
 
 .section-6 .card{
     width: 427px;
@@ -693,11 +694,11 @@ width: 100%;
 ^ SECTION 7 START
 */
 
-
 .sc-7-container{
   display: flex;
   justify-content: space-evenly;
   padding: 44px;
+  
 }
 
 .enterprise-text h2{
@@ -1015,13 +1016,18 @@ h5{
       .commit-2 .commit-22 {
         width: 100%;
       }
-      /* Section five end */
       
-      /* Section six start */
+      
+      
+      .section-6-cards{
+        display: flex;
+        flex-direction: column;
+      }
       .section-6{
         display: flex;
         flex-direction: column;
     }
+
     
     .section-6 .card{
         width: 427px;
@@ -1122,9 +1128,7 @@ h5{
         margin: 24px 0;
     }
 
-    .enterprise-text{
-      flex-direction: column;
-    }
+    
     
     .enterprise-text p{
         font-family: Roboto, "seans-serif";
@@ -1143,11 +1147,13 @@ h5{
         font-weight: 700;
         font-size: 18px;
         margin-top: 20px;
+        
     }
     
     .enterprise-img img{
         width: 644px;
         height: 361px;
+        margin-top: 20px;
     }
     /*
     ^ SECTION 7 END
