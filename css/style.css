@@ -789,7 +789,7 @@ h5{
 /*
 ^ MOBILE RESPONSIVE START
 /* Header start */
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 600px){
     .header {
         width: 100%;
         display: flex;
